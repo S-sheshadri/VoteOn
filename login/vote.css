@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+body{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	position:relative;
+}
+.page-container{
+	background-color: #000;
+	font-family: 'Courgette', cursive;
+	height:100vh;
+}
+#voteCandy{
+	background-image:url("parchment.jpg");
+	background-size: 100%;
+	background-position:right center;
+	width: 100%
+	height:100%;
+}
+.candyName
+{
+	margin-right: 100px;
+
+}
+.rad
+{
+position: relative;;
+margin-top: -8px;}
+
+.row
+{
+	height:35%;
+	margin-left: 80px;
+	font-family: 'Courgette', cursive;
+}
+input[type='radio'] { transform: scale(3); 	margin_top:20px;
+}
+#submitbtn{
+	width: 30%;
+	height:50%;
+	background: none;
+	border: solid;
+	font-size: 30px;
+	font-family: 'Courgette', cursive;
+	border-radius: 80px;
+	color:#fff;
+	cursor:pointer;
+  display: block;
+  margin: auto 150px;}
+
+#submitbtn:hover{
+	background-color: #110b15;
+	color: #e9d5bb;
+	border:none;
+}
+
+.input{
+		background-color: #110b15;
+		padding:40px;
+		position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    border-radius: 20px;
+		font-size: 35px;
+		color: #fff;
+		vertical-align:top;
+
+}
